@@ -9,9 +9,9 @@ div {
     border-style:groove;
     border-width: 1.5px;
     border-color: rgb(40, 40, 40);
-    border-radius: 5px;
+    border-radius: 3px;
     background-color: #c5c5b0;
-    font-family:'Times New Roman', Times, serif;
+    font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 .mail {
@@ -27,6 +27,33 @@ div {
     position: absolute;
     top: 1px;
     left: 5em;
+    width: 3em;
+    height: 3em;
+}
+
+.git {
+    right: 40%;
+    top: 30%;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.git > a {
+    color : black;
+}
+
+.git:hover > a{
+    color :red;
+}
+
+.git > h3 , a {
+    margin: 1em;
+}
+
+.git > img {
+    position: absolute;
+    top: -7.5px;
+    left: 1.5em;
     width: 3em;
     height: 3em;
 }
