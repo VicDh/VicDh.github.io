@@ -16,7 +16,7 @@ div {
 
 .mail {
     right: 60%;
-    top: 15%;
+    top: 18%;
 }
 
 .mail > h3 , p {
@@ -32,8 +32,8 @@ div {
 }
 
 .git {
-    right: 40%;
-    top: 30%;
+    right: 35%;
+    top: 33%;
     padding-bottom: 1em;
     text-align: center;
 }
@@ -56,4 +56,107 @@ div {
     left: 1.5em;
     width: 3em;
     height: 3em;
+}
+
+.tel {
+    right: 55%;
+    top: 40%;
+}
+
+.tel > h3 , p {
+    margin: 1em;
+}
+
+.tel > img {
+    position: absolute;
+    top: -9px;
+    left: 2.5em;
+    width: 3em;
+    height: 3em;
+}
+
+.insta {
+    right: 66%;
+    top: 55%;
+    text-align: center;
+}
+
+.insta > h3 , p {
+    margin: 1em;
+}
+
+.insta > img {
+    position: absolute;
+    top: -9px;
+    left: 2.5em;
+    width: 3em;
+    height: 3em;
+}
+
+.nom {
+    right: 28%;
+    top: 12%;
+    text-align: center;
+}
+
+.nom > h3 {
+    margin: 1em;
+}
+
+.nom > img {
+    position: absolute;
+    top: -9px;
+    left: 2.5em;
+    width: 3em;
+    height: 3em;
+}
+
+.cv {
+    right: 30%;
+    top: 60%;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+.cv > a {
+    color : black;
+}
+
+.cv:hover > a{
+    color :red;
+}
+
+.cv > h3 , a {
+    margin: 1em;
+}
+
+.cv > img {
+    position: absolute;
+    top: -7.5px;
+    left: 1.5em;
+    width: 3em;
+    height: 3em;
+}
+
+.iut {
+    right: 46%;
+    top: 68%;
+    text-align: center;
+}
+
+.iut > h3 {
+    margin: 1em;
+}
+
+.iut > img {
+    position: absolute;
+    top: -9px;
+    left: 7em;
+    width: 3em;
+    height: 3em;
+}
+
+.iutimg {
+    width: 260px;
+    height: 160px;
 }
