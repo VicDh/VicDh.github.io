@@ -1,5 +1,5 @@
 body {
-    background: radial-gradient(circle at center, transparent 0%, transparent 10%, rgba(0, 0, 0, 0.8) 80%), url('../img/fnaf_wall.png');
+    background: radial-gradient(circle at center, transparent 0%, transparent 10%, rgba(0, 0, 0, 0.8) 80%), url('../img/fnaf_wall.png'),no-repeat;
     background-size: 100%;
     background-position-y: -5em;
 }
@@ -31,6 +31,11 @@ div {
     height: 3em;
 }
 
+.mail:hover {
+    transform: rotate(5deg) scale(1.5);
+    transition: transform 330ms ease-in-out;
+}
+
 .git {
     right: 35%;
     top: 33%;
@@ -58,6 +63,11 @@ div {
     height: 3em;
 }
 
+.git:hover {
+    transform: rotate(-5deg) scale(1.5);
+    transition: transform 330ms ease-in-out;
+}
+
 .tel {
     right: 55%;
     top: 40%;
@@ -73,6 +83,11 @@ div {
     left: 2.5em;
     width: 3em;
     height: 3em;
+}
+
+.tel:hover {
+    transform: rotate(-5deg) scale(1.5);
+    transition: transform 330ms ease-in-out;
 }
 
 .insta {
@@ -93,6 +108,11 @@ div {
     height: 3em;
 }
 
+.insta:hover {
+    transform: rotate(-5deg) scale(1.5);
+    transition: transform 330ms ease-in-out;
+}
+
 .nom {
     right: 28%;
     top: 12%;
@@ -106,9 +126,14 @@ div {
 .nom > img {
     position: absolute;
     top: -9px;
-    left: 2.5em;
+    left: 4em;
     width: 3em;
     height: 3em;
+}
+
+.nom:hover {
+    transform: rotate(5deg) scale(1.5);
+    transition: transform 330ms ease-in-out;
 }
 
 .cv {
@@ -138,6 +163,11 @@ div {
     height: 3em;
 }
 
+.cv:hover {
+    transform: rotate(5deg) scale(1.5);
+    transition: transform 330ms ease-in-out;
+}
+
 .iut {
     right: 46%;
     top: 68%;
@@ -159,4 +189,10 @@ div {
 .iutimg {
     width: 260px;
     height: 160px;
+    border-radius: 5px;
+}
+
+.iut:hover {
+    transform: rotate(-5deg) scale(1.5);
+    transition: transform 330ms ease-in-out;
 }
