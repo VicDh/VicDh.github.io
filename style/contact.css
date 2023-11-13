@@ -1,7 +1,6 @@
 body {
-    background: radial-gradient(circle at center, transparent 0%, transparent 10%, rgba(0, 0, 0, 0.8) 80%), url('../img/fnaf_wall.png'),no-repeat;
+    background: radial-gradient(circle at center, transparent 0%, transparent 10%, rgba(0, 0, 0, 0.8) 80%), url('../img/fnaf_wall.png') no-repeat;
     background-size: 100%;
-    background-position-y: -5em;
 }
 
 div {
@@ -195,4 +194,48 @@ div {
 .iut:hover {
     transform: rotate(-5deg) scale(1.5);
     transition: transform 330ms ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background: radial-gradient(circle at center, transparent 0%, transparent 10%, rgba(0, 0, 0, 0.8) 80%), url('../img/fnaf_wall.png');
+        background-size: 300%;
+        background-position-x: center;
+        background-position-y: bottom;
+    }
+    .nom{
+        top : 25%;
+        scale: 50%;
+        right: 40%;
+    }
+    .mail{
+        scale: 50%;
+        top : 35%;
+        right: 5%;
+    }
+    .git{
+        scale: 50%;
+        top : 50%;
+        right: 45%;
+    }
+    .tel{
+        scale: 50%;
+        top: 61%;
+        right: 10%;
+    }
+    .cv{
+        scale: 50%;
+        top: 73%;
+        right: 50%;
+    }
+    .insta{
+        scale: 50%;
+        top: 85%;
+        right: 13%;
+    }
+    .iut{
+        scale: 50%;
+        top: 90%;
+        right: 5%;
+    }
 }
