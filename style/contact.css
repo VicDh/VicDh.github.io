@@ -14,8 +14,8 @@ div {
 }
 
 .mail {
-    right: 60%;
-    top: 18%;
+    right: 50%;
+    top: 27%;
     transition: transform 330ms;
 }
 
@@ -39,7 +39,7 @@ div {
 
 .git {
     right: 35%;
-    top: 33%;
+    top: 25%;
     padding-bottom: 1em;
     text-align: center;
     transition: transform 330ms;
@@ -72,8 +72,8 @@ div {
 }
 
 .tel {
-    right: 55%;
-    top: 40%;
+    right: 62%;
+    top: 50%;
     transition: transform 330ms;
 }
 
@@ -97,7 +97,7 @@ div {
 
 .insta {
     right: 66%;
-    top: 55%;
+    top: 70%;
     text-align: center;
     transition: transform 330ms;
 }
@@ -121,7 +121,7 @@ div {
 }
 
 .nom {
-    right: 28%;
+    right: 45%;
     top: 12%;
     text-align: center;
     transition: transform 330ms;
@@ -146,7 +146,7 @@ div {
 }
 
 .cv {
-    right: 30%;
+    right: 24%;
     top: 60%;
     padding-bottom: 1em;
     text-align: center;
@@ -181,8 +181,8 @@ div {
 }
 
 .iut {
-    right: 41%;
-    top: 68%;
+    right: 36%;
+    top: 50%;
     text-align: center;
     transition: transform 330ms;
 }
