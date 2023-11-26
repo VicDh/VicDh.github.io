@@ -1,0 +1,12 @@
+.pres > img {
+    width: 300px;
+    height: 200px;
+}
+
+.imgs img{
+    margin: 2em;
+    width: 240px;
+    height: 130px;
+    border-radius: 1em;
+}
+  
