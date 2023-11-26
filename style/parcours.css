@@ -9,3 +9,55 @@ div{
     width: 500px;
     height: 300px;
 }
+
+.BUT , .BAC {
+    display: flex;
+    gap: 2vh;
+    background-color: grey;
+    padding: 2vh;
+    margin: 4vh;
+    border-radius: 25px;
+    justify-content: center;
+    max-width: fit-content;
+}
+
+.BUT img , .BAC img{
+    border-radius: 25px;
+}
+
+h3 {
+    background-color: darkslategray;
+    border-radius: 25px;
+    padding: 2vh;
+}
+
+body {
+    background-color: darkslategray;
+    color: azure;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 15px;
+    cursor:pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #505050;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #666;
+}
+
+button:active {
+    background-color: #303030;
+    box-shadow: 0 5px #555;
+    transform: translateY(4px);
+}
+
+button:hover{
+    background-color: #303030;
+}
