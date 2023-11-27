@@ -35,6 +35,11 @@ body {
     background-color: darkslategray;
     color: azure;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    background-image: url("../img/lol.png");
+    background-size: 100%;
+    background-position-y: -1em;
+    background-repeat: no-repeat;
 }
 
 button {
