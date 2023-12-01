@@ -1,15 +1,32 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+    background-image: url("../img/lol.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+body > center > h1 {
+    color: azure;
 }
 
 .imgs img{
+    position: relative;
     border-style: inset;
     border-width: 10px;
     border-color: black;
-    margin: 2em;
+    margin: 2vh;
     width: 240px;
     height: 130px;
     border-radius: 1em;
+    transform: scale(1);
+    transition: transform 330ms ease-in-out;
+}
+
+.imgs img:hover{
+    transform: scale(1.5);
+    transition: transform 330ms ease-in-out;
+    z-index: 2;
 }
 
 .logos img {
@@ -65,5 +82,5 @@ body {
 a {
     font-size: large;
     text-decoration: none;
-    color: darkslategray
+    color: azure
 }
