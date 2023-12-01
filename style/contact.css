@@ -1,6 +1,7 @@
 body {
-    background: radial-gradient(circle at center, transparent 0%, transparent 10%, rgba(0, 0, 0, 0.8) 80%), url('../img/fnaf_wall.png') no-repeat;
-    background-size: 100%;
+    background:url('../img/midm.png');
+    background-size: cover;
+    background-position-y: -5vh;
 }
 
 div {
@@ -10,7 +11,7 @@ div {
     border-color: rgb(40, 40, 40);
     border-radius: 3px;
     background-color: #c5c5b0;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .mail {
