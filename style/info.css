@@ -4,6 +4,7 @@ body {
     background-image: url("../img/lol.png");
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom: 2em;
 }
 
 body > center > h1 {
@@ -27,12 +28,6 @@ body > center > h1 {
     transform: scale(1.5);
     transition: transform 330ms ease-in-out;
     z-index: 2;
-}
-
-.logos img {
-    width: 100px;
-    height: 100px;
-    margin: 2em;
 }
 
 .pres > img {
