@@ -1,0 +1,9 @@
+body{
+    background-image: url("../img/ark.png");
+    background-size: 100%;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
