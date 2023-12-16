@@ -28,6 +28,7 @@ img {
     margin: 10px 30%;
     border-radius: 60px;
     padding: 5px;
+    border: 1px solid white;
 }
 
 .jvf div{
@@ -35,10 +36,11 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: cornflowerblue;
+    background-color: darkslategray;
     max-width: 200px;
     padding: 10px;
     border-radius: 20px;
+    border: 1px solid white;
 }
 
 main h1 , main p{
@@ -51,7 +53,7 @@ main h1 , main p{
     list-style: none;
     display: flex;
     justify-content: space-evenly;
-    background-color: cornflowerblue;
+    background-color: darkslategray;
     margin: 0 50px;
     padding: 10px;
     border-radius: 20px;
