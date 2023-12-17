@@ -11,16 +11,17 @@ img {
     height: 200px;
     border-radius: 25px;
     margin-top: 10px;
+    transition: transform 330ms ease-in-out;
 }
 
 img:hover {
-   transform: scale(1.5); 
-   
+    transform: scale(1.5); 
+    transition: transform 330ms ease-in-out;
 }
 
 div p {
     margin-top: 210px;
-    color : black;
+    font-weight: bold;
 }
 
 div {
@@ -38,6 +39,15 @@ div {
 div a {
     text-decoration: none;
     color: azure;
+}
+
+div a:hover {
+    color: cornflowerblue;
+}
+
+div ul {
+    list-style: none;
+    padding: 2px;
 }
 
 div h1 {
