@@ -1,6 +1,6 @@
 body{
-    background-image: url("../img/ark.png");
-    background-size: cover;
+    background: linear-gradient(#2a2a29, #000000);
+    background-size:auto;
     color: azure;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
