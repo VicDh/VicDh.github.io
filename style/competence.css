@@ -42,8 +42,8 @@ body > h1 {
 }
 
 .logos img {
-    height: 100px;
-    width: 100px;
+    height: 60px;
+    width: 60px;
     display: inline-flex;
     padding: 1em;
     align-items: center;

@@ -12,14 +12,17 @@ div{
 
 .BUT , .BAC {
     display: flex;
+    flex-direction: row;
     gap: 2vh;
     background-color: grey;
     padding: 2vh;
-    margin: 4vh;
+    margin: 4vh auto;
     border-radius: 25px;
     justify-content: center;
     max-width: fit-content;
+    align-items: center;
 }
+
 
 .BUT img , .BAC img{
     border-radius: 25px;
@@ -37,7 +40,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: black;
     background-image: url("../img/lol.png");
-    background-size: 100%;
+    background-size: cover;
     background-position-y: -1em;
     background-repeat: no-repeat;
 }

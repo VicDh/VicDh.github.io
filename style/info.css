@@ -39,7 +39,7 @@ body > center > h1 {
 .pres {
     display: flex;
     gap: 2vh;
-    margin: 2vh;
+    margin: 0 auto;
     background-color: grey;
     padding: 2vh;
     border-radius: 25px;
